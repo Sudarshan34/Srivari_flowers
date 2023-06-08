@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Vari Flowers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<Section class="header">
+    <nav>
+    <a href="index.html" ><img src="images/"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="HideMenu()"></i>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Flowers</a></li>
+            <li><a href="">Contact</a></li>    
+        </ul>
+
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+   <div class="text-box">
+     <h1>Sri Vari Flowers</h1>
+      <p>   
+        We have all kind of flowers that we deliver across the different states in South India
+      </p>
+      <a href="" class="hero-btn">
+           Visit Us Know More
+         </a>
+   </div>
+</Section>
+<!--FLOWER TYPES SECTION-->
+<section class="flower-types">
+    <h1>Flowers We Deliver</h1>
+   <div  class="row">
+    <div class="flower-col">
+        <h3>Roses</h3>
+        <p>
+            Their petals are edible and rose water (made from soaking the petals in water) is often added to jellies or jams, or is used as flavoring in Indian 
+            <br> and Chinese dishes. 
+            Roses also grow a berry-shaped fruit called rose hips. The fruit can be orange, red, dark purple, or even black.
+        </p>
+
+    </div>
+    <div class="flower-col">
+        <h3>Transvaal daisy</h3>
+        <p>
+            TAlthough the gerbera appears to be a thoroughly modern flower, it was actually named in 1737 after Traugott Gerber,
+            <br> a German doctor and keen botanist. The flower itself originates from South Africa, Asia, South America and Tasmania.
+
+    </div>
+    <div class="flower-col">
+        <h3>Tulip</h3>
+        <p>
+            Tulips are said to have different meanings based on flower color. Red tulips represent true love (no wonder tulips are the second most popular Valentine's Day flower). 
+            <br>White ones are a symbol of apology and forgiveness. Purple tulips are a symbol of royalty.
+        </p>
+
+    </div>
+      
+   </div>
+
+</section>
+
+<section class="office">
+    <h1>Our Office</h1>
+    <p>
+        Please check the office details
+    </p>
+    <div class="row">
+        <div class="office-col">
+            <img src="images/bg.jpg">
+            <div class="layer">
+                <h3>BASTI</h3>
+            </div>
+
+        </div>
+
+        <div class="office-col">
+            <img src="images/bg.jpg">
+            <div class="layer">
+                <h3>SHOOLAGIRI</h3>
+            </div>
+
+        </div>
+
+        <div class="office-col">
+            <img src="images/bg.jpg">
+            <div class="layer">
+                <h3>KALINGAVARAM</h3>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!--Javascript for toggling menu in mobile-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+
+        function HideMenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+<!--Javascript for toggling menu in mobile-->
+</body>
+</html>
